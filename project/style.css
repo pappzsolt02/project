@@ -1,0 +1,304 @@
+body{
+    background-image: linear-gradient(rgb(64, 64, 94),rgb(34, 33, 33), black);
+    font-family: monospace;
+
+}
+#logo{
+    height: 50px;
+}
+.gomb{
+    color: white;
+}
+.gomb:hover{
+    color:rgb(0, 195, 255)
+}
+.navbar{
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navwhite{
+    background-color: rgb(15, 13, 13)
+}
+.textcard{
+    margin-top: 100px;
+    border: 1px solid white;
+    height: 500px;
+    text-align: center;
+    line-height: 450px;
+    color: white;
+    font-size: 25pt;
+}    
+.textcarda{
+    margin-top: 100px;
+    border: 1px solid white;
+    height: 500px;
+    text-align: center;
+    
+    color: white;
+    font-size: 12pt;
+}    
+.textcardm{
+    margin-top: 100px;
+    border: 1px solid white;
+    height: 500px;
+    text-align: center;
+    color: white;
+    font-size: 12pt;
+}    
+.textcardf{
+    margin-top: 100px;
+    height: 500px;
+    line-height: 450px;
+    color: white;
+    font-size: 75pt;
+
+}
+.textcard1{
+    margin-top: 150px;
+    border: 1px solid white;
+    height: 500px;
+
+}
+.textcard2{
+    margin-top: 100px;
+    border: 1px solid white;
+    height: 700px;
+
+}
+.minitextcard{
+    border: 1px solid white;
+    height: 160px;
+    flex-grow: 1;
+}
+.textcard3{
+    border: 1px solid white;
+    height: 540px;
+    flex-grow: 1;
+}
+.textcard4{
+    margin-top: 100px;
+    border-top: 1px solid white;
+    height: 500px;
+}
+.textcard5{
+    margin-top: 100px;
+    border: 1px solid white;
+    height: 10000px
+}    
+.textcard6{
+    
+    height: 100px;
+}
+.textcard7{
+    height: 400px;
+} 
+.textcard8{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid white;
+    height: 300px;
+    font-size: 15pt;
+    
+    
+}   
+.textcard9{
+    margin-top: 100px;
+    border: 1px solid white;
+    height: 500px;
+    text-align: center;
+    line-height: 420px;
+    color: white;
+    font-size: 25pt;
+    
+}
+
+.alkalmazott{
+    text-align: right;
+    color: white;
+    
+}
+.rolunk{
+    color: white;
+}
+.akep{
+    margin-right: 110px;
+    margin-top: 100px;
+    height: 500px;
+}
+.mkep{
+    margin-right: 110px;
+    margin-top: 100px;
+    height: 500px;
+}
+.mkep2{
+    
+    margin-top: 100px;
+    height: 500px;
+}    
+
+
+   
+.kezdokep2{
+position: relative left;
+margin-right:  200px;
+}    
+
+
+  
+  
+.teaml{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}    
+.teamr{
+    float: right;
+    width: 50%;
+    padding: 5px;
+}    
+.front_p{
+    float: right;
+    height: 500px;
+    width: 50%;
+}    
+
+h1{
+    text-align: center;
+}
+.bio{
+    text-align: left;
+}
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+form {
+    background-color: rgba(red, green, blue, 1);
+    width: 250px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0,5px solid blue;
+  }
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  button{
+    background: #000000;
+}
+.border-glow {
+    border: 1px solid rgba(0, 0, 0, 1);
+    animation: 5s infinite glow;
+  }
+  @keyframes glow {
+    0% {
+      border-color: rgba(0, 0, 0, 1);
+    }
+    25% {
+      border-color: rgb(0, 195, 255)
+    }
+    25% {
+      border-color: rgba(0, 0, 0, 1);
+    }
+    25% {
+      border-color: rgb(0, 195, 255)
+    }
+  }
+.hirlevel{
+    color: white;
+    font-size: 20pt;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(0, 195, 255);
+}
+.informacio{
+      font-size: 19pt;
+      color: white;
+}
+.alogo{
+    font-size: 20pt;
+    color: white;
+    list-style-type: "💻";
+}
+.ceginfo{
+    font-size: 19pt;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.social{
+    color: white;
+}
+.e-mail{
+    color: whitesmoke;
+}
+.fa{
+        padding: 20px;
+        font-size: 30px;
+        width: 55px;
+        text-align: center;
+        text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+  color: white;
+}    
+.fa-twitter{
+    background: #55ACEE;
+  color: white;
+}
+.fa-youtube{
+    background: rgb(121, 18, 18);
+  color: white;
+}
+.media:hover{
+    color: white;
+}
+.foszoveg{
+    font-size: 50pt;
+    animation: gradientText 5s ease-in-out infinite;
+      }
+      @keyframes gradientText  {
+        0% {
+         color: rgba(0, 0, 0, 1);
+        }
+        25% {
+          color: rgb(0, 195, 255)
+        }
+        25% {
+          color: rgba(0, 0, 0, 1);
+        }
+        25% {
+          color: rgb(0, 195, 255)
+        }
+      }
+
+.bio{
+    font-size:25pt;
+}  
+button{
+    color: white;
+}    
+.kezdosz{
+    font-size: 40pt;
+}
